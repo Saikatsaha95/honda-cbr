@@ -7,6 +7,23 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+main {
+  background-color: white;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.p-color {
+  color: #7e848c;
+}
+
+.orange-color {
+  color: #e77c40;
+}
+
 .honda-btn {
   background-color: #e76f51;
   padding: 10px;
@@ -21,6 +38,7 @@ body {
 
 .honda-btn:hover {
   color: black;
+  background-color: #da4622;
 }
 
 /* Top Banner */
@@ -33,7 +51,65 @@ body {
   font-weight: 600;
 }
 
-p {
+.header-bg .container p {
   color: #e0e0e0;
   font-weight: 400;
+  font-size: 1rem;
 }
+
+.header-bg .container p:first-child {
+  font-size: 0.875rem;
+}
+
+/* Featured bike section */
+.featured-bikes p {
+  color: red;
+  font-size: 0.875rem;
+}
+
+.gray-img {
+  filter: grayscale(100%);
+}
+
+.bike-img {
+  transition: all 0.3s ease-in-out;
+}
+
+.bike-img:hover {
+  transform: scale(1.1);
+}
+
+/* Customer Review */
+
+.img-area {
+  width: 149px;
+  height: 149px;
+}
+
+.img-bg {
+  background-color: #e5e5e5;
+}
+
+.card-area {
+  border: 2px solid #dedede;
+  border-radius: 5px;
+}
+
+.card-area:hover {
+  box-shadow: 5px 5px 10px gray;
+}
+
+.customer-review .card .card-body p:first-child {
+  color: #6c6c6c;
+}
+
+.rounded-img {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* .img-area img {
+  width: 100%;
+} */
